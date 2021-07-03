@@ -52,7 +52,7 @@ div.cover p {
 
 div.cover_contact {
     position: relative;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 25px;
     border-left:4px solid var(--color1);
     padding-left: 8px;
@@ -95,7 +95,7 @@ a.contact_button:hover {
 /*Partie images et triangle gris*/
 div.section_grise1 {
     height: 110px;
-    background: url(triangle2white.svg) no-repeat center bottom /100%;
+    background: url(triangle2white.svg) no-repeat center bottom /150%;
     background-color: var(--color2);
     padding-top: 30px; 
     padding-bottom: 250px;
