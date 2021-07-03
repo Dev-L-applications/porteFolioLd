@@ -252,6 +252,14 @@ section.picture {
         padding-left: 8px;
         padding-right: 8px;
         }
+    
+    a.contact_button{
+        font-size: 16px;
+    }
+
+    div.cover h1 {
+        font-size: large; 
+    }
 
     section.picture {
         /*background: #ff000040;*/
