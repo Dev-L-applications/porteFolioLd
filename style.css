@@ -36,12 +36,13 @@ img.cover_profile {
     margin-left: -85px;
     margin-top: 50px;
     border-radius: 30px;
+
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-size: 42px; 
+    font-size: large; 
 }
 
 div.cover p {
@@ -51,7 +52,7 @@ div.cover p {
 
 div.cover_contact {
     position: relative;
-    margin-top: -310px;
+    margin-top: -290px;
     margin-left: 25px;
     border-left:4px solid var(--color1);
     padding-left: 8px;
@@ -96,8 +97,8 @@ div.section_grise1 {
     height: 110px;
     background: url(triangle2white.svg) no-repeat center bottom /100%;
     background-color: var(--color2);
-    padding-top: 28px; 
-    padding-bottom: 70px;
+    padding-top: 30px; 
+    padding-bottom: 250px;
     font-style: italic;
 }
 
@@ -259,7 +260,7 @@ section.picture {
         height: 90px;
         background: url(triangle2white.svg) no-repeat center bottom /100%;
         background-color: var(--color2);
-        padding-top: 28px; 
+        padding-top: 40px; 
         padding-bottom: 70px;
     }
     
