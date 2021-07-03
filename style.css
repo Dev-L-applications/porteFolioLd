@@ -3,6 +3,7 @@
     --color1: #d89584; /* Variable qui permet de d'etre utilisée dans différents bloc css*/
     --color2: #f4f4f4;
 }
+
 /*Pour éviter les débordement hors zones*/
 * {
     overflow: auto;
@@ -40,17 +41,15 @@ img.cover_profile {
 h1 {
     color: white;
     text-align: center;
-    font-size: 42px;
-   
+    font-size: 42px; 
 }
 
 div.cover p {
-   color: lightgrey;
-   text-align: center;
+    color: lightgrey;
+    text-align: center;
 }
 
 div.cover_contact {
-    /*background: #ff000040;*/
     position: relative;
     margin-top: -310px;
     margin-left: 25px;
@@ -68,6 +67,7 @@ div.cover * {
     font-size: 13px;
 }
 
+/*Boutons d'exercices*/
 a.contact_button {
     color: var(--color1);
     border: 3px solid var(--color1);
@@ -78,6 +78,7 @@ a.contact_button {
     margin-top: 50px;
     font-size: 14px;
 }
+
 a.contact_button:hover {
     color: white;
     border: 3px solid white;
@@ -90,6 +91,7 @@ a.contact_button:hover {
     padding-bottom: 30px;
 }
 
+/*Partie images et triangle gris*/
 div.section_grise1 {
     height: 110px;
     background: url(triangle2white.svg) no-repeat center bottom /100%;
@@ -106,21 +108,23 @@ div.section_grise1 p{
     margin-top: 0px;
     line-height: 1.5;
 }
+
+/*Icons dans boutons*/
 .card svg.material-icons path {
     fill: #888;
-  }
+}
   
-  .card-container {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 5px;
-  }
+}
   
-  .card {
+.card {
     border-radius: 10px;
     border: 2px solid #eee;
-    background-color: #1E90FF;
+    background-color: #fafafa;
     height: 50px;
     width: 245px;
     margin: 0 8px 16px;
@@ -131,19 +135,19 @@ div.section_grise1 p{
     align-items: center;
     transition: all 0.2s ease-in-out;
     line-height: 24px;
-  }
+}
   
-  .card-container .card:not(:last-child) {
+.card-container .card:not(:last-child) {
     margin-right: 0;
-  }
+}
   
-  .card-container .card:not(.highlight-card):hover {
+.card-container .card:not(.highlight-card):hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 17px rgba(0, 0, 0, 0.35);
-  }
+}
+ 
   
-  
-  svg#rocket-smoke {
+svg#rocket-smoke {
     height: calc(100vh - 95px);
     position: absolute;
     top: 10px;
@@ -166,8 +170,8 @@ div.section_grise2 {
 }
 
 div.Infos_CV h4 {
-    background-color: #d3d1d140;
-    border:1px solid black;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 div.Infos_CV p {
@@ -320,21 +324,21 @@ section.picture {
     .rotate div img {
         -webkit-transition: all 0.5s ease;
         transition: all 0.5s ease;
-}
+    }
  
-.rotate div:hover img {
+        .rotate div:hover img {
         -webkit-transform: rotate(-15deg);
         transform: rotate(-15deg);
-}
+    }
 
-.picture_langages {
+    .picture_langages {
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
-}
+    }
 
-.card {
-    height: 25px;
-    width: 260px;
-  }
+    .card {
+        height: 25px;
+        width: 260px;
+    }
 }
