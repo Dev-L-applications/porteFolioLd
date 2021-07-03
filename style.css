@@ -1,7 +1,7 @@
 
 :root {
     --color1: #d89584; /* Variable qui permet de d'etre utilisée dans différents bloc css*/
-    --color2: #f4f4f4;
+    --color2: #DCDCDC;
 }
 
 /*Pour éviter les débordement hors zones*/
@@ -145,7 +145,7 @@ div.section_grise1 p{
     transform: translateY(-4px);
     box-shadow: 0 8px 17px rgba(0, 0, 0, 0.35);
 }
- 
+  
   
 svg#rocket-smoke {
     height: calc(100vh - 95px);
